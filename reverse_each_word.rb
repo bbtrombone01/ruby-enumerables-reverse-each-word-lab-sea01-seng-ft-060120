@@ -6,5 +6,5 @@ string.collect do |e|
   e.reverse
   new_home.unshift(e) 
   end 
-new_home
+new_home.to_s
 end
