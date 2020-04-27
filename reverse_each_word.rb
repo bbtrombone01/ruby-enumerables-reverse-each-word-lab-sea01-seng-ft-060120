@@ -3,7 +3,7 @@ string =%W(#{string})
 empty = ""
 string.collect do |e|
   e.reverse!
-  empty = empty + e
+  empty = e + empty 
   end 
   empty 
 end
