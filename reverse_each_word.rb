@@ -3,6 +3,7 @@ string =%W(#{string})
 new_home = [ ]
 empty = ""
 string.collect do |e|
+  e.reverse
   new_home.unshift(e) 
   end 
 new_home
