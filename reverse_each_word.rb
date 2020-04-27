@@ -5,5 +5,5 @@ empty = ""
 string.collect do |e|
   new_home.unshift(e) 
   end 
-  new_home
+  empty
 end
