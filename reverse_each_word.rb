@@ -1,7 +1,8 @@
 def reverse_each_word(string)
 string =%W(#{string})
-empty = []
+empty = ""
 string.collect do |e|
-  e
+  empty = e + empty
   end 
+  empty 
 end
